@@ -1,11 +1,17 @@
 #include <stdio.h>
 #include <ctype.h>
 
-int main(){
+/**
+ * main - Entry point
+ *
+ * Return: Assigns a random variable n each time it is executed
+ */
 
-    for(int i = 'A'; i <='z'; i++)
-    {
-        putchar(tolower(i));
-    }
-    return 0;
+int main(void)
+{
+for (int i = 'A'; i <= 'z'; i++)
+{
+putchar(tolower(i));
+}
+return (0);
 }
