@@ -3,10 +3,13 @@
 #include <string.h>
 
 /**
+ * removeChar - removes the said characters
  * main - Entry point
- *
+ *@s: pointer
+ *@c: character c
  * Return: All letters except q and e
  */
+
 
 void removeChar(char *s, char c)
 {
@@ -21,6 +24,11 @@ reader++;
 }
 s[writer] = 0;
 }
+
+/**
+ * main - Entry point
+ * Return: All letters except q and e
+ */
 
 int main(void)
 {
