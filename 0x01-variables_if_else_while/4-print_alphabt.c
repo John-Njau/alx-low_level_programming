@@ -4,10 +4,8 @@
 
 /**
  * removeChar - removes the said characters
- * main - Entry point
  *@s: pointer
  *@c: character c
- * Return: All letters except q and e
  */
 
 
