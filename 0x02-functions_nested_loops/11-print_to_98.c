@@ -2,22 +2,12 @@
 #include <stdio.h>
 
 /**
-* main - Entry point
+ * print_to_98 - print from given number to 98
  *
- * Return: Always 0.
+ * @n: integer
  */
 
-int main(void)
-{
-print_to_98(0);
-print_to_98(98);
-print_to_98(111);
-print_to_98(81);
-print_to_98(-10);
-return (0);
-}
-
-voidprint_to_98(int n)
+void print_to_98(int n)
 {
 
 if (n >= 98)
