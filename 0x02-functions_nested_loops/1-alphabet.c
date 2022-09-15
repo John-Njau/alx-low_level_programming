@@ -1,8 +1,17 @@
-#include <stdio.h>
-#include "_putchar.c"
+#include "main.h"
 
+/**
+ * main - Entry point
+ *
+ * Return: alphabets in lowercase
+ */
 
-int main(void)
+int main(char i)
 {
-_putchar("_");
+for (i = 'a'; i <= 'z'; i++)
+{
+_putchar(i);
+}
+_putchar('\n');
+return (0);
 }
