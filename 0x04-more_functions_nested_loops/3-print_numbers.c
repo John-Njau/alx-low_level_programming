@@ -1,11 +1,21 @@
 #include "main.h"
 
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+print_numbers();
+return (0);
+}
 
 /**
  * print_numbers - prints 0 to 9
  *
- * Return: 0
  */
+
 
 void print_numbers(void)
 {
