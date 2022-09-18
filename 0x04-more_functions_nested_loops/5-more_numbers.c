@@ -1,6 +1,5 @@
 #include "main.h"
 
-
 /**
  * more_numbers - Prints the numbers from 0-14, ten times.
  */
