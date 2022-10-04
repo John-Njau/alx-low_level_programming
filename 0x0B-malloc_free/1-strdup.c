@@ -27,8 +27,8 @@ char *_strdup(char *str)
 	if (strout == NULL)
 		return (NULL);
 
-	for (n = 0; str[n] != '\0'; n++)
-		strout[n] = str[n]
-		;
+	for (n = 0; n <= i; n++)
+		strout[n] = str[n];
+
 	return (strout);
 }
