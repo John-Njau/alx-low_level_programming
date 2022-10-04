@@ -10,6 +10,7 @@
 
 char *_strdup(char *str)
 {
+	char *strout;
 	unsigned int i, n;
 
 	if (str == NULL)
@@ -21,7 +22,6 @@ char *_strdup(char *str)
 	for (i = 0; str[i] != '\0'; i++)
 	;
 
-	char *strout;
 	strout = (char *)malloc(sizeof(char) * (i + 1));
 
 	if (strout == NULL)
